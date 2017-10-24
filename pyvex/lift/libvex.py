@@ -8,7 +8,7 @@ from .. import pvc, ffi
 
 _libvex_lock = threading.Lock()
 
-SUPPORTED = {'X86', 'AMD64', 'MIPS32', 'MIPS64', 'ARM', 'ARMEL', 'ARMHF', 'AARCH64', 'PPC32', 'PPC64'}
+SUPPORTED = {'X86', 'AMD64', 'MIPS32', 'MIPS64', 'ARM', 'ARMEL', 'ARMHF', 'AARCH64', 'PPC32', 'PPC64', 'PEP8'}
 
 class LibVEXLifter(Lifter):
     REQUIRE_DATA_C = True
